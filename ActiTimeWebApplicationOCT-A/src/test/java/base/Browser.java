@@ -19,11 +19,6 @@ public class Browser {
 		return driver;
 	}
 	
-	public static WebDriver launchOperaBrowser() {
-		System.setProperty("webdriver.oppera.driver", "operadriver.exe");
-		WebDriver driver = new OperaDriver();
-		return driver;
-	}
 	
 
 }
